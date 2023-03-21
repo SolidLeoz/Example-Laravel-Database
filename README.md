@@ -12,20 +12,20 @@
       Navigate into the project directory. <br>
       bash  <br>
       Copy code <br>
-      cd your-repository <br>
+      <code>cd your-repository </code> <br>
       Install dependencies using composer. <br>
       Copy code <br>
-      composer install <br>
+      <code>composer install </code> <br>
       Create a new .env file from the example file. <br>
       bash <br>
       Copy code <br>
-      cp .env.example .env <br>
+      <code>cp .env.example .env </code> <br>
       Generate a new APP_KEY. <br>
-      vbnet <br>
+     
       Copy code <br>
-      php artisan key:generate <br>
+      <code>php artisan key:generate </code> <br>
       Configure the .env file with your database settings. <br>
-      makefile <br>
+      
       Copy code <br>
       <code> DB_CONNECTION=mysql <br>
       DB_HOST=127.0.0.1   <br>
@@ -34,10 +34,10 @@
       DB_PASSWORD=your_database_password </code> <br> 
       Run the database migrations. <br>
       Copy code <br>
-      <code> php artisan migrate</code> <br>
+      <code> php artisan migrate </code> <br>
       Seed the database with sample data (optional). <br>
       Copy code <br>
-      <code>php artisan db:seed </code> <br> 
+      <code> php artisan db:seed </code> <br> 
       Usage <br>
       To run the Laravel application with the database, use the following command in your terminal: <br>
       
